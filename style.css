@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+
+
+header{
+    text-align: center;
+    height: 30px;
+    font-size: 25px;
+    font-family:'Trebuchet MS';
+
+    background-color: rgb(60, 99, 226);
+}
+
+.images{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    /* width: 80%; */
+
+    
+}
+
+.pic11{
+    height: 12rem ;
+    width: 12rem;
+    background-size: cover;
+    /* object-fit: cover; */
+    /* background-color: red; */
+}
+.score{
+    height: 20vh;
+    width: 50vh;
+    /* background-color: rgb(106, 139, 139); */
+    border: 1px solid blanchedalmond;
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 30rem;
+    gap: 20px;
+    align-items: center;
+    color: brown;
+    text-align: center;
+
+}
+.com{
+    font-size: 25px;
+    height: 20vh;
+    width: 20vh;
+    background-color: rgb(189, 159, 77);
+
+
+}
+.us{
+    font-size: 25px;
+    height: 20vh;
+    width: 20vh;
+    background-color:  rgb(189, 159, 77);
+
+}
+
+.pic11:hover{
+    border: 3px solid rgb(70, 145, 70);
+    cursor: pointer;
+}
+.display{
+    background-color:#CFAD6C;
+    display: inline-block;
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    margin-left: 32rem;
+    margin-top: 1.2rem;
+    font-size: 3.5rem;
+
+}
